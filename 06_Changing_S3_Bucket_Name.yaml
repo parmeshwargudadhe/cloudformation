@@ -6,3 +6,4 @@ Resources:
     Properties:
       AccessControl: PublicRead
       BucketName: "params-s3-bucket-1212" # Remember Naming Convensions, do not use underscore into bucket names.
+      
