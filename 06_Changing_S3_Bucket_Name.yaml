@@ -1,0 +1,8 @@
+# Documentation: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead
+      BucketName: "params-s3-bucket-1212" # Remember Naming Convensions, do not use underscore into bucket names.
